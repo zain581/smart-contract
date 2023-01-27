@@ -2,6 +2,10 @@ from hashlib import sha256
 
 from block import Block
 import time
+class block_test:
+    def __init__(self) -> None:
+        pass
+
 
 class Blockchain:
     # difficulty of our PoW algorithm
