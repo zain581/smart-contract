@@ -3,7 +3,8 @@ from blockchain import Blockchain
 
 from flask import Flask, request, jsonify
 from utils import get_ip
-
+import urllib as lb
+import errno
 import requests
 
 app = Flask(__name__)
