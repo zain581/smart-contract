@@ -1,5 +1,5 @@
 from hashlib import sha256
-
+import numpy as np
 import json
 
 class Block:
